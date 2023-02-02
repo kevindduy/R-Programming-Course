@@ -11,5 +11,10 @@ boxplot(BP, main="BP Boxplot")
 
 # create a side-by-side histogram
 hist(BP, main="BP Histogram", xlab="BP", ylab="Frequency")
+mean(blood_p$BP)
 
+summary(blood_p$BP)
 
+mean(blood_p$BP)
+mean(blood_p$Freq)
+colMeans(blood_p[,c("Freq", "BP")])
